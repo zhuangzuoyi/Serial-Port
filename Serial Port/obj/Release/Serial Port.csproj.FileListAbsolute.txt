@@ -1,0 +1,9 @@
+F:\2016\git\Serial Port\Serial Port\bin\Release\Serial Port.exe.config
+F:\2016\git\Serial Port\Serial Port\bin\Release\Serial Port.exe
+F:\2016\git\Serial Port\Serial Port\bin\Release\Serial Port.pdb
+F:\2016\git\Serial Port\Serial Port\obj\Release\Serial_Port.Form1.resources
+F:\2016\git\Serial Port\Serial Port\obj\Release\Serial_Port.Properties.Resources.resources
+F:\2016\git\Serial Port\Serial Port\obj\Release\Serial Port.csproj.GenerateResource.Cache
+F:\2016\git\Serial Port\Serial Port\obj\Release\Serial Port.exe
+F:\2016\git\Serial Port\Serial Port\obj\Release\Serial Port.pdb
+F:\2016\git\Serial Port\Serial Port\obj\Release\Serial Port.csprojResolveAssemblyReference.cache

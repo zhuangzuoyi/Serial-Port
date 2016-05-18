@@ -43,10 +43,10 @@
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.cmd_list = new System.Windows.Forms.ComboBox();
-            this.Send = new System.Windows.Forms.Button();
+            this.button_send = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button_close = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Messageshow
@@ -209,15 +209,15 @@
             this.cmd_list.Size = new System.Drawing.Size(671, 20);
             this.cmd_list.TabIndex = 14;
             // 
-            // Send
+            // button_send
             // 
-            this.Send.Location = new System.Drawing.Point(221, 74);
-            this.Send.Name = "Send";
-            this.Send.Size = new System.Drawing.Size(75, 23);
-            this.Send.TabIndex = 15;
-            this.Send.Text = "发送";
-            this.Send.UseVisualStyleBackColor = true;
-            this.Send.Click += new System.EventHandler(this.button1_Click_1);
+            this.button_send.Location = new System.Drawing.Point(221, 74);
+            this.button_send.Name = "button_send";
+            this.button_send.Size = new System.Drawing.Size(75, 23);
+            this.button_send.TabIndex = 15;
+            this.button_send.Text = "发送";
+            this.button_send.UseVisualStyleBackColor = true;
+            this.button_send.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button1
             // 
@@ -239,25 +239,25 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // button_close
             // 
-            this.button3.Location = new System.Drawing.Point(112, 74);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "关闭";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button_close.Location = new System.Drawing.Point(112, 74);
+            this.button_close.Name = "button_close";
+            this.button_close.Size = new System.Drawing.Size(75, 23);
+            this.button_close.TabIndex = 18;
+            this.button_close.Text = "关闭";
+            this.button_close.UseVisualStyleBackColor = true;
+            this.button_close.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(695, 434);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button_close);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.Send);
+            this.Controls.Add(this.button_send);
             this.Controls.Add(this.cmd_list);
             this.Controls.Add(this.comboBox5);
             this.Controls.Add(this.comboBox4);
@@ -273,6 +273,7 @@
             this.Controls.Add(this.PortOopen);
             this.Controls.Add(this.PortList);
             this.Controls.Add(this.Messageshow);
+            this.KeyPreview = true;
             this.Name = "Form1";
             this.Text = "串口调试";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -298,10 +299,10 @@
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.ComboBox cmd_list;
-        private System.Windows.Forms.Button Send;
+        private System.Windows.Forms.Button button_send;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button_close;
     }
 }
 
